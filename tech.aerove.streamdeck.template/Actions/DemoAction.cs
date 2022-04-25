@@ -9,18 +9,17 @@ using tech.aerove.streamdeck.client.Actions;
 namespace tech.aerove.streamdeck.template.Actions
 {
     /// <summary>
-    /// Define what action this belongs to with the PluginAction Attribute
-    /// Simply pass the UUID as defined in the manifest.json
-    /// If this is not present automapping tries to use the name
-    /// to find the corresponding class
+    /// Define what action this class belongs to with the PluginAction
+    /// Attribute. Simply pass the UUID as defined in the manifest.json.
+    /// If this is not present automapping tries to use the action name
+    /// to find the corresponding class.
     /// </summary>
     [PluginAction("tech.aerove.streamdeck.template.demoaction")]
 
     /// <summary>
     /// This is an example action. Actions must inherit from the ActionBase class.
-    /// You can inject any services that were added to the service container
-    /// Actions have a lifetime similar to a singleton service
-    /// actions themselves
+    /// You can inject any services that were added to the service container.
+    /// Actions have a lifetime similar to a singleton service.
     /// </summary>
     public class DemoAction : ActionBase
     {
@@ -51,7 +50,7 @@ namespace tech.aerove.streamdeck.template.Actions
         }
 
         /// <summary>
-        /// Even Global events can be recieved within the action. 
+        /// Even Global events can be received within the action. 
         /// Note: if you are listening to this in multiple instances / actions
         /// all instances will recieve global events at the same time.
         /// </summary>
