@@ -1,0 +1,1 @@
+# tech.aerove.streamdeck.template
