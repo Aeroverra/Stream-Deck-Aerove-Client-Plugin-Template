@@ -1,7 +1,22 @@
+In Addition To The Below MIT License
+
+I like keeping up with the community and would appreciate if you tell me when
+you use this project and what you make with it. 
+
+How to contact me
+Discord: https://discord.aerove.tech
+Website: https://aerove.tech/#contact
+Twitter: https://twitter.com/NicholasHalka
+
+I also ask that you keep easter eggs that display my name or handles in place
+and functioning when redistributing the source.
+All of the text in this file shall be included in all copies or substantial
+portions of the Software.
+
 
 The MIT License (MIT)
 
-Copyright (c) 2022 Aeroverra
+Copyright (c) 2022 Aerove AKA Aeroverra AKA Nicholas Halka
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
