@@ -14,7 +14,7 @@ namespace tech.aerove.streamdeck.template.Actions
     /// If this is not present automapping tries to use the action name
     /// to find the corresponding class.
     /// </summary>
-    [PluginAction("tech.aerove.streamdeck.template.demoaction")]
+    [PluginAction("tech.aerove.streamdeck.template.{Action Name Min}")]
 
     /// <summary>
     /// This is an example action. Actions must inherit from the ActionBase class.

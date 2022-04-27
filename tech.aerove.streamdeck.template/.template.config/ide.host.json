@@ -17,6 +17,13 @@
       "isVisible": true
     },
     {
+      "id": "Plugin Name",
+      "name": {
+        "text": "Plugin Name"
+      },
+      "isVisible": true
+    },
+    {
       "id": "Category",
       "name": {
         "text": "Category"
@@ -31,20 +38,6 @@
       "isVisible": true
     },
     {
-      "id": "Plugin Name",
-      "name": {
-        "text": "Plugin Name"
-      },
-      "isVisible": true
-    },
-    {
-      "id": "Action Name Min",
-      "name": {
-        "text": "Action Name lowercase with no spaces or special symbols"
-      },
-      "isVisible": true
-    },
-    {
       "id": "URL",
       "name": {
         "text": "URL"
@@ -55,6 +48,13 @@
       "id": "Action Name",
       "name": {
         "text": "First Action Name"
+      },
+      "isVisible": true
+    },
+    {
+      "id": "Action Name Min",
+      "name": {
+        "text": "Action Name lowercase with no spaces or special symbols"
       },
       "isVisible": true
     },
