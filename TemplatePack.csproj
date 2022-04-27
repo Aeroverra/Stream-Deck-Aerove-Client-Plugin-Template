@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Authors>Aeroverra AKA Nicholas Halka</Authors>
+    <PackageType>Template</PackageType>
+    <Company>Aerove</Company>
+    <Product>Aerove Stream Deck Client Plugin Template</Product>
+    <Title>Aerove Stream Deck Client Plugin Template</Title>
+    <Description>A plugin template for the best C# client library for making Elgato Stream Deck plugins taking advantage of the .NET service environment and the only major client that supports both Windows and Mac OSX natively.</Description>
+    <VersionPrefix>0.6.8</VersionPrefix>
+    <VersionSuffix>beta</VersionSuffix>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <Copyright>Copyright (c) 2022 Aerove AKA Aeroverra AKA Nicholas Halka</Copyright>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageProjectUrl>https://aerove.tech</PackageProjectUrl>
+    <PackageTags>dotnet-new;templates;aerove;stream deck;streamdeck;elgato</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/Aeroverra/Stream-Deck-C-Client</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageId>tech.aerove.streamdeck.template</PackageId>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageIcon>aerove.png</PackageIcon>
+
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="LICENSE.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="LICENSE.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\aerove.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="tech.aerove.streamdeck.template\**\*" Exclude="tech.aerove.streamdeck.template\**\bin\**;tech.aerove.streamdeck.template\**\obj\**" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+</Project>

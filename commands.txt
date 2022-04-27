@@ -1,0 +1,42 @@
+### more info at this url ###
+https://docs.microsoft.com/en-us/dotnet/core/tools/custom-templates
+https://auth0.com/blog/create-dotnet-project-template/
+
+### resolve errors from old missing template folders
+dotnet new --uninstall
+then run listed commands
+
+### in the folder that contains the .template.config folder ###
+dotnet new --install .
+dotnet new --uninstall .
+
+### list installed templates ###
+dotnet new --list
+
+### use installed template ###
+dotnet new {shortname} -o {namespace/proj name}
+dotnet new streamdeckplugin -o tech.aerove.streamdeck.mynewplugin
+
+dotnet new {shortname} -o {namespace/proj name} -{shortparam as shown in the show options command} {value} -{short} {value}
+dotnet new streamdeckplugin -o tech.aerove.streamdeck.mynewplugin -d "description of plugin"
+
+### view options for template###
+dotnet new {shortname} -h
+dotnet new streamdeckplugin -h
+
+### Nuget Create Package ###
+dotnet pack "TemplatePack.csproj"
+
+### install from nuget ###
+dotnet new -i tech.aerove.streamdeck.template
+
+### uninstall nuget ###
+dotnet new --uninstall tech.aerove.streamdeck.template
+
+### clear console ###
+clear
+
+
+### uppdates nuget ###
+dotnet new --update-check
+dotnet new --update-apply

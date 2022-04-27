@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Aeroverra",
+  "classifications": [ "Stream Deck", "Console", "macOS", "Windows", "Service" ],
+  "identity": "tech.aerove.streamdeck.template",
+  "name": "Stream Deck Plugin",
+  "shortName": "streamdeckplugin",
+  "sourceName": "tech.aerove.streamdeck.template",
+  "description": "A template for creating a Stream Deck plugin for Mac / Windows using the Aerove Stream Deck Client.",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "symbols": {
+    "Plugin Description": {
+      "type": "parameter",
+      "description": "Your plugin description",
+      "defaultValue": "A template for the Aerove Stream Deck Client",
+      "replaces": "A template for the Aerove Stream Deck Client"
+    },
+    "Plugins Path": {
+      "type": "parameter",
+      "description": "The path to your Stream Deck plugins folder",
+      "defaultValue": "%appdata%\\Elgato\\StreamDeck\\Plugins",
+      "replaces": "%appdata%\\Elgato\\StreamDeck\\Plugins"
+    }
+  }
+}

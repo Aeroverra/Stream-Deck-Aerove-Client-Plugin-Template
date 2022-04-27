@@ -6,7 +6,7 @@
   "Category": "Aerove Stream Deck Template",
   "CategoryIcon": "PropertyInspector/images/actionImage",
   "PropertyInspectorPath": "PropertyInspector/DemoAction.html",
-  "Description": "A template for the Aerove Stream Deck Client",
+  "Description": "A template for creating a Stream Deck plugin with the Aerove Stream Deck Client",
   "Name": "Aerove Stream Deck Template",
   "Icon": "PropertyInspector/images/default",
   "URL": "https://aerove.tech",

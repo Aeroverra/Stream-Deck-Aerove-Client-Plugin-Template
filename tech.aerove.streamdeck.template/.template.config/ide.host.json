@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json.schemastore.org/vs-2017.3.host",
+  "icon": "aerove.png",
+  "symbolInfo": [
+    {
+      "id": "Plugin Description",
+      "name": {
+        "text": "Plugin Description"
+      },
+      "isVisible": true
+    },
+    {
+      "id": "Plugins Path",
+      "name": {
+        "text": "Stream Deck Plugins Path"
+      },
+      "isVisible": true
+    }
+  ]
+}
