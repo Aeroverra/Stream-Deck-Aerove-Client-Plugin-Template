@@ -1,15 +1,15 @@
 {
   "SDKVersion": 2,
-  "Author": "Aeroverra",
+  "Author": "{Author}",
   "CodePath": "tech.aerove.streamdeck.template.exe",
   "CodePathMac": "tech.aerove.streamdeck.template",
-  "Category": "Aerove Stream Deck Template",
+  "Category": "{Category}",
   "CategoryIcon": "PropertyInspector/images/actionImage",
   "PropertyInspectorPath": "PropertyInspector/DemoAction.html",
-  "Description": "A template for creating a Stream Deck plugin with the Aerove Stream Deck Client",
-  "Name": "Aerove Stream Deck Template",
+  "Description": "{Description}",
+  "Name": "{Plugin Name}",
   "Icon": "PropertyInspector/images/default",
-  "URL": "https://aerove.tech",
+  "URL": "{URL}",
   "Version": "1.0",
   "OS": [
     {
@@ -27,7 +27,7 @@
   "Actions": [
     {
       "Icon": "PropertyInspector/images/actionImage",
-      "Name": "Aeroverra Demo Action",
+      "Name": "{Action Name}",
       "States": [
         {
           "Image": "PropertyInspector/images/image",
@@ -41,8 +41,8 @@
         }
       ],
       "SupportedInMultiActions": true,
-      "Tooltip": "A demo action for the Aerove Stream Deck Client by Aeroverra",
-      "UUID": "tech.aerove.streamdeck.template.demoaction",
+      "Tooltip": "{Action Tooltip}",
+      "UUID": "tech.aerove.streamdeck.template.{Action Name Min}",
       "PropertyInspectorPath": "PropertyInspector/DemoAction.html"
     }
   ]

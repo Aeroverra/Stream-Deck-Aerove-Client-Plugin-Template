@@ -3,16 +3,65 @@
   "icon": "aerove.png",
   "symbolInfo": [
     {
-      "id": "Plugin Description",
+      "id": "Plugins Path",
       "name": {
-        "text": "Plugin Description"
+        "text": "Stream Deck Plugins Path"
       },
       "isVisible": true
     },
     {
-      "id": "Plugins Path",
+      "id": "Author",
       "name": {
-        "text": "Stream Deck Plugins Path"
+        "text": "Author"
+      },
+      "isVisible": true
+    },
+    {
+      "id": "Category",
+      "name": {
+        "text": "Category"
+      },
+      "isVisible": true
+    },
+    {
+      "id": "Description",
+      "name": {
+        "text": "Description"
+      },
+      "isVisible": true
+    },
+    {
+      "id": "Plugin Name",
+      "name": {
+        "text": "Plugin Name"
+      },
+      "isVisible": true
+    },
+    {
+      "id": "Action Name Min",
+      "name": {
+        "text": "Action Name lowercase with no spaces or special symbols"
+      },
+      "isVisible": true
+    },
+    {
+      "id": "URL",
+      "name": {
+        "text": "URL"
+      },
+      "isVisible": true
+    },
+    {
+      "id": "Action Name",
+      "name": {
+        "text": "First Action Name"
+      },
+      "isVisible": true
+    },
+    {
+      "id": "Action Tooltip",
+      "name": {
+        "text": "First Action Tooltip"
       },
       "isVisible": true
     }
