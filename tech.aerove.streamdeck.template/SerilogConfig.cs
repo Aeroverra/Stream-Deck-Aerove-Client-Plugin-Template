@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace tech.aerove.streamdeck.template
+namespace Tech.Aerove.StreamDeck.Template
 {
     internal class SerilogConfig
     {

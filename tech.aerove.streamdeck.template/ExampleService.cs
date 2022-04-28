@@ -1,7 +1,7 @@
-using tech.aerove.streamdeck.client;
-using tech.aerove.streamdeck.client.Events;
+using Tech.Aerove.StreamDeck.Client;
+using Tech.Aerove.StreamDeck.Client.Events;
 
-namespace tech.aerove.streamdeck.template
+namespace Tech.Aerove.StreamDeck.Template
 {
 
     /// <summary>

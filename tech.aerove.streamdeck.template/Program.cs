@@ -1,6 +1,6 @@
 using Serilog;
-using tech.aerove.streamdeck.client;
-using tech.aerove.streamdeck.template;
+using Tech.Aerove.StreamDeck.Client;
+using Tech.Aerove.StreamDeck.Template;
 
 SerilogConfig.Configure();
 

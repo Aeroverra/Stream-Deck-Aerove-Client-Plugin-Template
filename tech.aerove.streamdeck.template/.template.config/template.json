@@ -20,6 +20,20 @@
       "replaces": "%appdata%\\Elgato\\StreamDeck\\Plugins"
     },
     //STREAM DECK MANIFEST
+    "UUID": {
+      "type": "parameter",
+      "description": "The unique identifier of the action. It must be a uniform type identifier (UTI) that contains only lowercase alphanumeric characters (a-z, 0-9), hyphen (-), and period (.). The string must be in reverse-DNS format. For example, if your domain is elgato.com and you create a plugin named Hello with the action My Action, you could assign the string com.elgato.hello.myaction as your action's Unique Identifier.",
+      "defaultValue": "com.yourwebsite.plugin.nospaces"
+    },
+    "UUIDlower": {
+      "type": "generated",
+      "generator": "casing",
+      "parameters": {
+        "source": "UUID",
+        "toLower": true
+      },
+      "replaces": "tech.aerove.streamdeck.template"
+    },
     "Author": {
       "type": "parameter",
       "description": "The author of the plugin. This string is displayed to the user in the Stream Deck store.",
@@ -44,29 +58,11 @@
       "defaultValue": "",
       "replaces": "{Plugin Name}"
     },
-    "Action Name Min": {
-      "type": "parameter",
-      "description": "Action name with no spaces or special symbols",
-      "defaultValue": "",
-      "replaces": "{Action Name Min}"
-    },
     "URL": {
       "type": "parameter",
       "description": "A site to provide more information about the plugin.",
       "defaultValue": "",
       "replaces": "{URL}"
-    },
-    "Action Name": {
-      "type": "parameter",
-      "description": "The name of your first action. This string is visible to the user in the actions list.",
-      "defaultValue": "",
-      "replaces": "{Action Name}"
-    },
-    "Action Tooltip": {
-      "type": "parameter",
-      "description": "The string is displayed as a tooltip when the user leaves the mouse over your action in the actions list.",
-      "defaultValue": "",
-      "replaces": "{Action Tooltip}"
     }
   }
 }

@@ -10,6 +10,14 @@
       "isVisible": true
     },
     {
+      "id": "UUID",
+      "name": {
+        "text": "UUID"
+      },
+      "isVisible": true,
+      "persistenceScope": "shared"
+    },
+    {
       "id": "Author",
       "name": {
         "text": "Author"
@@ -41,27 +49,6 @@
       "id": "URL",
       "name": {
         "text": "URL"
-      },
-      "isVisible": true
-    },
-    {
-      "id": "Action Name",
-      "name": {
-        "text": "First Action Name"
-      },
-      "isVisible": true
-    },
-    {
-      "id": "Action Name Min",
-      "name": {
-        "text": "Action Name lowercase with no spaces or special symbols"
-      },
-      "isVisible": true
-    },
-    {
-      "id": "Action Tooltip",
-      "name": {
-        "text": "First Action Tooltip"
       },
       "isVisible": true
     }

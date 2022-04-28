@@ -28,7 +28,7 @@ dotnet new streamdeckplugin -h
 dotnet pack "TemplatePack.csproj"
 
 ### install from nuget ###
-dotnet new -i tech.aerove.streamdeck.template
+dotnet new -i Tech.Aerove.StreamDeck.Template
 
 ### uninstall nuget ###
 dotnet new --uninstall tech.aerove.streamdeck.template

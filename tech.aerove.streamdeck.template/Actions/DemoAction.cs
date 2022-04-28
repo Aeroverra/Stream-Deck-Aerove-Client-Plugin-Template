@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using tech.aerove.streamdeck.client.Actions;
+using Tech.Aerove.StreamDeck.Client.Actions;
 
-namespace tech.aerove.streamdeck.template.Actions
+namespace Tech.Aerove.StreamDeck.Template.Actions
 {
     /// <summary>
     /// Define what action this class belongs to with the PluginAction
@@ -14,7 +14,7 @@ namespace tech.aerove.streamdeck.template.Actions
     /// If this is not present automapping tries to use the action name
     /// to find the corresponding class.
     /// </summary>
-    [PluginAction("tech.aerove.streamdeck.template.{Action Name Min}")]
+    [PluginAction("tech.aerove.streamdeck.template.demoaction")]
 
     /// <summary>
     /// This is an example action. Actions must inherit from the ActionBase class.

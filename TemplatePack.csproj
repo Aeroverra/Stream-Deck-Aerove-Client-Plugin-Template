@@ -7,7 +7,7 @@
     <Product>Aerove Stream Deck Client Plugin Template</Product>
     <Title>Aerove Stream Deck Client Plugin Template</Title>
     <Description>A plugin template for the best C# client library for making Elgato Stream Deck plugins taking advantage of the .NET service environment and the only major client that supports both Windows and Mac OSX natively.</Description>
-    <VersionPrefix>0.6.9</VersionPrefix>
+    <VersionPrefix>0.7.2</VersionPrefix>
     <VersionSuffix>beta</VersionSuffix>
     <PackageReleaseNotes></PackageReleaseNotes>
     <Copyright>Copyright (c) 2022 Aerove AKA Aeroverra AKA Nicholas Halka</Copyright>
@@ -17,7 +17,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/Aeroverra/Stream-Deck-C-Client</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageId>tech.aerove.streamdeck.template</PackageId>
+    <PackageId>Tech.Aerove.StreamDeck.Template</PackageId>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <PackageIcon>aerove.png</PackageIcon>
