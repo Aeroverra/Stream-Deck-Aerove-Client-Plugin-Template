@@ -4,10 +4,10 @@
     <Authors>Aeroverra AKA Nicholas Halka</Authors>
     <PackageType>Template</PackageType>
     <Company>Aerove</Company>
-    <Product>Aerove Stream Deck Client Plugin Template</Product>
-    <Title>Aerove Stream Deck Client Plugin Template</Title>
-    <Description>A plugin template for the best C# client library for making Elgato Stream Deck plugins taking advantage of the .NET service environment and the only major client that supports both Windows and Mac OSX natively.</Description>
-    <VersionPrefix>0.7.2</VersionPrefix>
+    <Product>Aerove Stream Deck Client Plugin Templates</Product>
+    <Title>Aerove Stream Deck Client Plugin Templates</Title>
+    <Description>Templates for creating Stream Deck plugins for Mac / Windows using the Aerove Stream Deck Client.</Description>
+    <VersionPrefix>0.7.10</VersionPrefix>
     <VersionSuffix>beta</VersionSuffix>
     <PackageReleaseNotes></PackageReleaseNotes>
     <Copyright>Copyright (c) 2022 Aerove AKA Aeroverra AKA Nicholas Halka</Copyright>
@@ -46,7 +46,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="tech.aerove.streamdeck.template\**\*" Exclude="tech.aerove.streamdeck.template\**\bin\**;tech.aerove.streamdeck.template\**\obj\**" />
+    <Content Include="Tech.Aerove.StreamDeck.Template\**\*;Tech.Aerove.StreamDeck.BeginnerTemplate\**\*" 
+             Exclude="Tech.Aerove.StreamDeck.Template\**\bin\**;Tech.Aerove.StreamDeck.Template\**\obj\**;Tech.Aerove.StreamDeck.BeginnerTemplate\**\bin\**;Tech.Aerove.StreamDeck.BeginnerTemplate\**\obj\**" />
     <Compile Remove="**\*" />
   </ItemGroup>
 

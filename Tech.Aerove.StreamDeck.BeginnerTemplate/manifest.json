@@ -1,8 +1,8 @@
 {
   "SDKVersion": 2,
   "Author": "{Author}",
-  "CodePath": "Tech.Aerove.StreamDeck.Template.exe",
-  "CodePathMac": "Tech.Aerove.StreamDeck.Template",
+  "CodePath": "Tech.Aerove.StreamDeck.BeginnerTemplate.exe",
+  "CodePathMac": "Tech.Aerove.StreamDeck.BeginnerTemplate",
   "Category": "{Category}",
   "CategoryIcon": "PropertyInspector/images/actionImage",
   "PropertyInspectorPath": "PropertyInspector/DemoAction.html",
@@ -42,7 +42,7 @@
       ],
       "SupportedInMultiActions": true,
       "Tooltip": "This string is displayed as a tooltip when the user leaves the mouse over your action in the actions list.",
-      "UUID": "tech.aerove.streamdeck.template.demoaction",
+      "UUID": "tech.aerove.streamdeck.beginnertemplate.demoaction",
       "PropertyInspectorPath": "PropertyInspector/DemoAction.html"
     }
   ]

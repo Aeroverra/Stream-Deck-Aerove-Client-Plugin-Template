@@ -2,11 +2,11 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "Aeroverra",
   "classifications": [ "Stream Deck", "Console", "macOS", "Windows", "Service" ],
-  "identity": "Tech.Aerove.StreamDeck.Template",
-  "name": "Stream Deck Plugin",
-  "shortName": "streamdeckplugin",
-  "sourceName": "Tech.Aerove.StreamDeck.Template",
-  "description": "A template for creating a Stream Deck plugin for Mac / Windows using the Aerove Stream Deck Client.",
+  "identity": "Tech.Aerove.StreamDeck.BeginnerTemplate",
+  "name": "Beginner Stream Deck Plugin",
+  "shortName": "beginnerstreamdeckplugin",
+  "sourceName": "Tech.Aerove.StreamDeck.BeginnerTemplate",
+  "description": "A template for creating a Stream Deck plugin for Mac / Windows using the Aerove Stream Deck Client. This template contains extra comments.",
   "preferNameDirectory": true,
   "tags": {
     "language": "C#",
@@ -32,7 +32,7 @@
         "source": "UUID",
         "toLower": true
       },
-      "replaces": "tech.aerove.streamdeck.template"
+      "replaces": "tech.aerove.streamdeck.beginnertemplate"
     },
     "Author": {
       "type": "parameter",
