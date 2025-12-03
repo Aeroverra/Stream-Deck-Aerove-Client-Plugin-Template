@@ -1,16 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Authors>Aeroverra AKA Nicholas Halka</Authors>
     <PackageType>Template</PackageType>
-    <Company>Aerove</Company>
-    <Product>Aerove Stream Deck Client Plugin Templates</Product>
-    <Title>Aerove Stream Deck Client Plugin Templates</Title>
+    <Company>AutoBuy LLC</Company>
+    <Product>Aerove Stream Deck Client Plugin Templates (Legacy)</Product>
+    <Title>Aerove Stream Deck Client Plugin Templates (Legacy)</Title>
     <Description>Templates for creating Stream Deck plugins for Mac / Windows using the Aerove Stream Deck Client.</Description>
-    <VersionPrefix>0.7.12</VersionPrefix>
+    <VersionPrefix>0.8.2</VersionPrefix>
     <VersionSuffix>beta</VersionSuffix>
     <PackageReleaseNotes></PackageReleaseNotes>
-    <Copyright>Copyright (c) 2022 Aerove AKA Aeroverra AKA Nicholas Halka</Copyright>
+    <Copyright>Copyright (c) 2022 Aeroverra AKA Nicholas Halka</Copyright>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageProjectUrl>https://aerove.tech</PackageProjectUrl>
     <PackageTags>dotnet-new;templates;aerove;stream deck;streamdeck;elgato</PackageTags>
