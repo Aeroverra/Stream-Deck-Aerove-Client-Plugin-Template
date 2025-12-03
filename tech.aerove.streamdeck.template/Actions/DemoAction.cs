@@ -1,4 +1,4 @@
-﻿using Tech.Aerove.StreamDeck.Client.Actions;
+﻿using Aeroverra.StreamDeck.Client.Actions;
 
 namespace Tech.Aerove.StreamDeck.Template.Actions
 {

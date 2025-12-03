@@ -1,5 +1,5 @@
-using Tech.Aerove.StreamDeck.Client;
-using Tech.Aerove.StreamDeck.Client.Events;
+using Aeroverra.StreamDeck.Client;
+using Aeroverra.StreamDeck.Client.Events;
 
 namespace Tech.Aerove.StreamDeck.Template
 {

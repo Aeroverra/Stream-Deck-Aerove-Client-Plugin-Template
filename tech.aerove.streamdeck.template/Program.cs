@@ -1,5 +1,5 @@
 using Serilog;
-using Tech.Aerove.StreamDeck.Client;
+using Aeroverra.StreamDeck.Client;
 using Tech.Aerove.StreamDeck.Template;
 
 SerilogConfig.Configure();
