@@ -7,7 +7,7 @@
     <Product>Aerove Stream Deck Client Plugin Templates (Legacy)</Product>
     <Title>Aerove Stream Deck Client Plugin Templates (Legacy)</Title>
     <Description>Templates for creating Stream Deck plugins for Mac / Windows using the Aerove Stream Deck Client.</Description>
-    <VersionPrefix>0.8.2</VersionPrefix>
+    <VersionPrefix>0.8.3</VersionPrefix>
     <VersionSuffix>beta</VersionSuffix>
     <PackageReleaseNotes></PackageReleaseNotes>
     <Copyright>Copyright (c) 2022 Aeroverra AKA Nicholas Halka</Copyright>
