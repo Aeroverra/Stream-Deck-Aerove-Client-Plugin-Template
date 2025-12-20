@@ -1,3 +1,3 @@
-# tech.aerove.streamdeck.template
+# aeroverra.streamdeck.template
 For instructions go here
 https://github.com/Aeroverra/Stream-Deck-CSharp-Client

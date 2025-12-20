@@ -4,21 +4,21 @@
 		<Authors>Aeroverra AKA Nicholas Halka</Authors>
 		<PackageType>Template</PackageType>
 		<Company>Aerove</Company>
-		<Product>Aerove Stream Deck Client Plugin Templates</Product>
-		<Title>Aerove Stream Deck Client Plugin Templates</Title>
-		<Description>Templates for creating Stream Deck plugins for Mac / Windows using the Aerove Stream Deck Client.</Description>
-		<VersionPrefix>0.7.12</VersionPrefix>
+		<Product>Stream Deck Client Plugin Templates By Aeroverra</Product>
+		<Title>Stream Deck Client Plugin Templates By Aeroverra</Title>
+		<Description>Templates for creating Stream Deck plugins for Mac / Windows using the Aeroverra Stream Deck Client.</Description>
+		<VersionPrefix>0.8.8</VersionPrefix>
 		<VersionSuffix>beta</VersionSuffix>
 		<PackageReleaseNotes>
 		</PackageReleaseNotes>
-		<Copyright>Copyright (c) 2022 Aerove AKA Aeroverra AKA Nicholas Halka</Copyright>
+		<Copyright>Copyright (c) 2022 Aeroverra AKA Nicholas Halka</Copyright>
 		<NeutralLanguage>en-US</NeutralLanguage>
 		<PackageProjectUrl>https://aerove.tech</PackageProjectUrl>
-		<PackageTags>dotnet-new;templates;aerove;stream deck;streamdeck;elgato</PackageTags>
+		<PackageTags>dotnet-new;templates;aeroverra;stream deck;streamdeck;elgato</PackageTags>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<RepositoryUrl>https://github.com/Aeroverra/Stream-Deck-C-Client</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
-		<PackageId>Tech.Aerove.StreamDeck.Template</PackageId>
+		<PackageId>Aeroverra.StreamDeck.Template</PackageId>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
 		<PackageIcon>aerove.png</PackageIcon>
@@ -46,7 +46,7 @@
 		</None>
 	</ItemGroup>
 	<ItemGroup>
-		<Content Include="Tech.Aerove.StreamDeck.Template\**\*;Tech.Aerove.StreamDeck.BeginnerTemplate\**\*" Exclude="Tech.Aerove.StreamDeck.Template\**\bin\**;Tech.Aerove.StreamDeck.Template\**\obj\**;Tech.Aerove.StreamDeck.BeginnerTemplate\**\bin\**;Tech.Aerove.StreamDeck.BeginnerTemplate\**\obj\**" />
+		<Content Include="Aeroverra.StreamDeck.Template\**\*;Aeroverra.StreamDeck.BeginnerTemplate\**\*" Exclude="Aeroverra.StreamDeck.Template\**\bin\**;Aeroverra.StreamDeck.Template\**\obj\**;Aeroverra.StreamDeck.BeginnerTemplate\**\bin\**;Aeroverra.StreamDeck.BeginnerTemplate\**\obj\**" />
 		<Compile Remove="**\*" />
 	</ItemGroup>
 </Project>

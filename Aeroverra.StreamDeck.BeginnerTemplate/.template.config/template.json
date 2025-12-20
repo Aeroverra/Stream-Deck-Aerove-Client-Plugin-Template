@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Aeroverra",
+  "classifications": [ "Stream Deck", "Console", "macOS", "Windows", "Service" ],
+  "identity": "Aeroverra.StreamDeck.BeginnerTemplate",
+  "name": "Beginner Stream Deck Plugin",
+  "shortName": "beginnerstreamdeckplugin",
+  "sourceName": "Aeroverra.StreamDeck.BeginnerTemplate",
+  "description": "A template for creating a Stream Deck plugin for Mac / Windows using the Aerove Stream Deck Client. This template contains extra comments.",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "symbols": {
+    "Plugins Path": {
+      "type": "parameter",
+      "description": "The path to your Stream Deck plugins folder",
+      "defaultValue": "%appdata%\\Elgato\\StreamDeck\\Plugins",
+      "replaces": "%appdata%\\Elgato\\StreamDeck\\Plugins"
+    },
+    //STREAM DECK MANIFEST
+    "UUID": {
+      "type": "parameter",
+      "description": "The unique identifier of the action. It must be a uniform type identifier (UTI) that contains only lowercase alphanumeric characters (a-z, 0-9), hyphen (-), and period (.). The string must be in reverse-DNS format. For example, if your domain is elgato.com and you create a plugin named Hello with the action My Action, you could assign the string com.elgato.hello.myaction as your action's Unique Identifier.",
+      "defaultValue": "com.yourwebsite.plugin.nospaces"
+    },
+    "UUIDlower": {
+      "type": "generated",
+      "generator": "casing",
+      "parameters": {
+        "source": "UUID",
+        "toLower": true
+      },
+      "replaces": "tech.aerove.streamdeck.beginnertemplate"
+    },
+    "Author": {
+      "type": "parameter",
+      "description": "The author of the plugin. This string is displayed to the user in the Stream Deck store.",
+      "defaultValue": "",
+      "replaces": "{Author}"
+    },
+    "Category": {
+      "type": "parameter",
+      "description": "The name of the custom category in which the actions should be listed. This string is visible to the user in the actions list. If you don't provide a category, the actions will appear inside a 'Custom' category.",
+      "defaultValue": "",
+      "replaces": "{Category}"
+    },
+    "Description": {
+      "type": "parameter",
+      "description": "Provides a general description of what the plugin does. This string is displayed to the user in the Stream Deck store.",
+      "defaultValue": "",
+      "replaces": "{Description}"
+    },
+    "Plugin Name": {
+      "type": "parameter",
+      "description": "The name of the plugin. This string is displayed to the user in the Stream Deck store.",
+      "defaultValue": "",
+      "replaces": "{Plugin Name}"
+    },
+    "URL": {
+      "type": "parameter",
+      "description": "A site to provide more information about the plugin.",
+      "defaultValue": "",
+      "replaces": "{URL}"
+    }
+  }
+}

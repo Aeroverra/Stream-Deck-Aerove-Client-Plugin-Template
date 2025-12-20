@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>dotnet-Aeroverra.StreamDeck.BeginnerTemplate-CD01A7F6-EE66-4B0D-9E68-FB2CD7355968</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<_WebToolingArtifacts Remove="Properties\PublishProfiles\osx-64.pubxml" />
+		<_WebToolingArtifacts Remove="Properties\PublishProfiles\win-64.pubxml" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.0" />
+		<PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
+		<PackageReference Include="Aeroverra.StreamDeck.Client" Version="0.8.6-beta" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="PropertyInspector\DemoAction.html">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="PropertyInspector\images\actionimage%402x.png">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="PropertyInspector\images\actionimage.png">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="PropertyInspector\images\default%402x.png">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="PropertyInspector\images\default.png">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="PropertyInspector\images\image%402x.png">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="PropertyInspector\images\image.png">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>

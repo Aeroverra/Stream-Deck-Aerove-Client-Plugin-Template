@@ -15,10 +15,10 @@ dotnet new --list
 
 ### use installed template ###
 dotnet new {shortname} -o {namespace/proj name}
-dotnet new streamdeckplugin -o tech.aerove.streamdeck.mynewplugin
+dotnet new streamdeckplugin -o aeroverra.streamdeck.mynewplugin
 
 dotnet new {shortname} -o {namespace/proj name} -{shortparam as shown in the show options command} {value} -{short} {value}
-dotnet new streamdeckplugin -o tech.aerove.streamdeck.mynewplugin -d "description of plugin"
+dotnet new streamdeckplugin -o aeroverra.streamdeck.mynewplugin -d "description of plugin"
 
 ### view options for template###
 dotnet new {shortname} -h
@@ -28,10 +28,10 @@ dotnet new streamdeckplugin -h
 dotnet pack "TemplatePack.csproj"
 
 ### install from nuget ###
-dotnet new -i Tech.Aerove.StreamDeck.Template
+dotnet new -i Aeroverra.StreamDeck.Template
 
 ### uninstall nuget ###
-dotnet new --uninstall tech.aerove.streamdeck.template
+dotnet new --uninstall aeroverra.streamdeck.template
 
 ### clear console ###
 clear
